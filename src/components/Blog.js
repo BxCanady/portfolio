@@ -18,7 +18,7 @@ const Blog = () => {
             Blogs
           </h2>
 
-          <p className="pb-5">Some of my best blogs.</p>
+          <p className="pb-5">Some blogs I like to read.</p>
         </div>
 
         <div></div>

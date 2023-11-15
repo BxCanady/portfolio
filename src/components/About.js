@@ -11,28 +11,35 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-            Hi, My Name Is Rohima Akther everyone calls me Amrin. I am a
-            Frontend Developer. I build beautifull websites with React and
-            Tailwind CSS.
+            "Hello, I'm Brandon Canady,
+            a Full Stack MERN Developer with a passion for creating exceptional web experiences.
+            I specialize in building elegant and responsive websites using cutting-edge technologies like React and Tailwind CSS. With a keen eye for design and a commitment to clean, efficient code,
+            I bring creativity and expertise to every project.
+            Let's collaborate to bring your ideas to life!"
           </p>
-          <p className="pb-5">
-            I am proficient in Frontend skills like React.js, Redux, Redux Tool
-            Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.
-          </p>
+
 
           <p>In backend I know Node.js, Express.js, MongoDB, and Mongoose</p>
-
           <p>
-            In my spare time I create YouTube videos and write blogs on my Blog.
-            Where I talk about programming theory and build various projects.
+            Connect with me on{' '}
+            <a
+              href="https://github.com/BxCanady?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline"
+            >
+              GitHub
+            </a>
+            .
           </p>
+
         </div>
 
-        <div className="about-img">
+        <div className="about-img bg-primary p-4 rounded-lg">
           <img
             src={AboutImg}
             alt="coding illustration"
-            className="lgw-[80%] md:ml-auto"
+            className="w-48 h-auto mx-auto"
           />
         </div>
       </div>
